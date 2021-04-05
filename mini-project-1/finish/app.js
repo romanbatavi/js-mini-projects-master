@@ -113,7 +113,7 @@ function deleteTodo(e) {
   // Console logging event delegation
 
   if (e.target.classList.contains("delete-todo")) {
-    if (confirm("Apakah yaking akan menghapus?")) {
+    if (confirm("Yakin?")) {
       const parent = e.target.parentElement;
       parent.remove();
 
